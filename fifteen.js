@@ -12,8 +12,8 @@ window.onload=funtion(){
 	
 	for(var i=0; i<pieces.length; i++){
 		pieces[i].className="puzzlepiece";
-		pieces[i].style.top=Top + "px";
-		pieces[i].style.left=left = "px";
+		pieces[i].style.top=top + "px";
+		pieces[i].style.left=left + "px";
 		
 		pieces[i].style.backgroundPosition = leftsideBG + "px" + topBG + "px";
 		pieces[i].onlclick = makeMove;
